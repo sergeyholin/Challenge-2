@@ -1,39 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Snippet Cheatsheet</title>
-  <link rel="stylesheet" href="assets/css/reset.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>My Portfolio</title>
 </head>
 
 <body>
+    <!-- My Header -->
+    <div class="header">
+        <h1><span class="holin">Sergey Holin</span></h1>
+        <img src="./assets/images/avatar.jpg" height="50" width="50" >
+        <div>
+            <ul>
+                <li>
+                    <a href="#about-me"><u>About Me</u></a>
+                </li>
+                <li>
+                    <a href="#work"><u>Work</u></a>
+                </li>
+                <li>
+                    <a href="#contact-me"><u>Contact Me</u></a>
+                </li>
+                <li>
+                    <a href="#resume"><u>Resume</u></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 2nd Header -->
+    <div class="header2">
+        <h2><span class="awesome">I am awesome, hire me!</span></h2>
+    <!-- Section 1 -->
+    </div>
+    <div class="one">
+        <h1 id="about-me" class="about-me">About Me</h1>
+        <div class="p1">
+            <p>Bla Bla BlaBla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla </p>
+            <p> <br /> </p>
+            <p>Bla Bla BlaBla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla </p>
+            <p> <br /> </p>
+            <p>Bla Bla BlaBla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla </p>
+        </div>
+    </div>
 
-<!-- Header section vegins -->
-  <header class="header">
-    <h1 class="page-title">
-      CSS Snippet Cheatsheet
-    </h1>
-    <br>
-    <p>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permament home and add it to this page!Select any snippet below and it'll automatically select all of the code for you to copy.</p>
-   </header>
-   <!--Header section ends  -->
-   <!-- Main section begins -->
-   <main>
-    <section class="row justify-center">
-      <div class="card-column">
-        <figure class="card code-card">
-          <h2 class="card-header">Flexbox Row</h2>
-          <div class="card-body">
-            <p>Use these three properties to create a Flexbox row layout.</p>
-          </div>
-          <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
-          <pre class="code-block"><code>.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}</code></pre>
-        </figure>
-      </div>
+    <br />   <!--  Space between sections -->
+  
+    <!-- Section 2 -->
+    <div class="two">
+        <h1 id="work" class="work">Work</h1>
+       
+        <div class="grid">
+            <div class="image1" onclick="window.open('https://github.com/sergeyholin/Challenge-1','mywindow');" style="cursor: pointer;">
+                <div class="in-image-link">
+                    <h3>Surf Report</h3>
+                    <h5>MERN Stack</h5>
+                </div>
+            </div>
+            <div class="image2" onclick="window.open('https://github.com/sergeyholin/Challenge-1','mywindow');" style="cursor: pointer;">
+                <div class="in-image-link2">
+                    <h3>LED Wall</h3>
+                    <h5>Node/IoT</h5>
+                </div>
+            </div>
+            <div class="image3" onclick="window.open('https://github.com/sergeyholin/Challenge-1','mywindow');" style="cursor: pointer;">
+                <div class="in-image-link3">
+                    <h3>Calculator</h3>
+                    <h5>React/JavaScrip/CSS</h5>
+                </div>
+            </div>
+            <div class="image4" onclick="window.open('https://github.com/sergeyholin/Challenge-1','mywindow');" style="cursor: pointer;">
+                <div class="in-image-link4">
+                    <h3>Pastel Puzzels</h3>
+                    <h5>MERN Stack</h5>
+                </div>
+            </div>
+            <div class="image5" onclick="window.open('https://github.com/sergeyholin/Challenge-1','mywindow');" style="cursor: pointer;">
+                <div class="in-image-link5">
+                    <h3>Run Buddy</h3>
+                    <h5>HTML/CSS</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <h1 id="contact-me" class="contact-me">Contact Me</h1>
+        <div>
+            <ul>
+                <li>
+                    <a href="tel:7777777777" style="color: rgb(72, 72, 121)"><u>777.777.7777</u></a>
+                </li>
+                <li>
+                    <a href = "mailto: email@yahoo.com" style="color: rgb(72, 72, 121)"><u>email@yahoo.com</u></a>
+                </li>
+                <li>
+                    <a href="https://github.com/" alt="GitHub" style="color: rgb(72, 72, 121)"><u>GitHub</u></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/?lang=en" alt="Twitter" style="color: rgb(72, 72, 121)"><u>Twitter</u></a>
+                </li>
+                <li>
+                    <a href="https://www.spotify.com/us/" alt="Spotify" style="color: rgb(72, 72, 121)"><u>Spotify</u></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+    
+    

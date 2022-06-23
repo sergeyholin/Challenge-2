@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* Header section begins */
+body {
+  background-color: whitesmoke;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+  padding: 15px;
+ 
+  background-color: rgb(53, 50, 50);
+  color: lightblue;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+.header h1 .holin {
+  color: rgb(53, 50, 50);
+  background-color: lightblue;
+  padding-left: 50px;
+  margin-left: -20px;
+  border:50px;
+}
+
+img {
+  position: absolute;
+  top: 18px;
+  left: 334px;
+}
+
+.header div {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  
+  font-size: 20px;
+  color:lightblue;
+}
+
+.header div ul {
+  list-style-type: none;
+}
+
+.header div ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color:blue;
+}
+/* Header section ends */
+/* Header2 section starts */
+
+.header2 {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../assets/images/greenery.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.awesome {
+  position:relative;
+  right:-950px;
+  top:60px;
+  color: rgb(53, 50, 50);
+  background-color: lightblue;
+}
+/* Header 2 section ends */
+/* Section 1 starts */
+.one {
+  display:flex;
+  justify-content: center;
+  color: rgb(72, 72, 121);
+}
+
+.about-me {
+  text-align: right; 
+  margin-left: 3.25%;
+  padding: 20px;
+  /* Vertical line properties */
+  border-right: 5px solid rgb(72, 72, 121);
+  height:50;
+  width:10% 
+}
+div .p1 {
+  position: relative;
+  vertical-align: text-bottom;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+/* Section 1 ends */
+/* Section 2 starts */
+.two {
+  display:flex;
+  justify-content: center;  
+}
+
+.work {
+  text-align: right; 
+  margin-left: 3.6%;
+  padding:20px;
+  /* Vertical line properties */
+  border-right: 5px solid rgb(72, 72, 121);
+  height:1075px;
+  width:10% 
+}
+
+.two h1 {
+  color: rgb(72, 72, 121);
+}
+
+/* Grid Parameters*/
+.grid {
+  height: 90vh;
+  margin: 2rem;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px 10px;
+  width: 100%;
+  margin-left: 3%;
+  margin-right: 3%;
+  
+}
+
+.image1 {
+  grid-row: 1; 
+  grid-column: 1/4;
+  height: 515px;
+  width: 100%;
+  background-image: url("../assets/images/work.jpg");      
+  background-size: cover;
+  background-position: center;
+}
+
+.image2 {
+  grid-row: 2; 
+  grid-column: 1;
+  height: 250px;
+  width: 100%;
+  background-image: url("../assets/images/led-wall.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.image3 {
+  grid-row: 2; 
+  grid-column: 2;
+  height: 250px;
+  width: 100%;
+  background-image: url("../assets/images/calculator.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.image4 {
+  grid-row: 3; 
+  grid-column: 1;
+  height: 250px;
+  width: 100%;
+  background-image: url("../assets/images/pastel-puzzels.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.image5 {
+  grid-row: 3; 
+  grid-column: 2;
+  height: 250px;
+  width: 100%;
+  background-image: url("../assets/images/run-buddy.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.in-image-link {
+  display: inline-block;
+  padding: 5px;
+  background-color: lightblue;
+  position: relative;
+  top:85%
+}
+
+.in-image-link2, .in-image-link3, .in-image-link4, .in-image-link5 {
+  display: inline-block;
+  padding: 5px;
+  background-color: lightblue;
+  position: relative;
+  top:72.5%
+}
+/* Grid Parameters end */
+/* Section 2 ends */
+/* Footer starts */
+.footer {
+  display: flex; 
+  justify-content: space-between;
+  padding: 15px;
+  color: rgb(72, 72, 121);
+}
+
+.footer h1 {
+  text-align: right; 
+  margin-left: -2.6%;
+  padding:20px;
+  /* Vertical line properties */
+  border-right: 5px solid rgb(72, 72, 121);
+  height:100px;
+  width:15%; 
+}
+
+.footer div {
+  margin-right: 60px;
+  float: right;
+  font-size: 20px;
+  color:#ffffff;
+}
+
+.footer div ul {
+  list-style-type: none;
+  margin-right: 80px;
+}
+
+.footer div ul li {
+  display: inline-block;
+  margin-left: 80px;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Use flex-direction to stack the navbar, sidebar, and body */
+  main,
+  nav {
+    flex-direction: column;
+  }
+  /* Make the sidebar stack below the body */
+  aside {
+    order: 2;
+  }
+  /* Change the header background */
+  header {
+    background: #772014;
+  }
+  /* Change the navbar and footer background */
+  nav,
+  footer {
+    background-color: #bb8588;
+  }
+  #about-me, #work, #contact-me {
+    visibility: hidden;
+  }
+}
