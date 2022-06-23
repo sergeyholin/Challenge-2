@@ -40,4 +40,8 @@ F) Link: https://user-images.githubusercontent.com/77648727/107858055-eb266600-6
 
 3) Used bits of code from class lessons.
 
+SCREENSHOT:
+
+<img src="./assets/images/screenshot.png/"/>
+
 
