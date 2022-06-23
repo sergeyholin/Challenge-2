@@ -3,7 +3,7 @@ Challenge 2, Week 2 by Sergey Holin:
 
 URL of the GitHub repository: https://github.com/sergeyholin/Challenge-2
 
-URL of the deployed application:
+URL of the deployed application: https://sergeyholin.github.io/Challenge-2/
 
 ACCEPTANCE CRITERIA:
 
