@@ -28,7 +28,7 @@ body {
   margin-left: -20px;
   border:50px;
 }
-
+/* Avatar */
 img {
   position: absolute;
   top: 18px;
@@ -57,7 +57,7 @@ a {
   color: lightblue;
   text-decoration: none;
 }
-
+/* Hover effect */
 a:hover, a:active {
   color:blue;
 }
@@ -239,26 +239,27 @@ div .p1 {
   margin-left: 80px;
   padding-top: 30px;
 }
-
+/* Responsive layout section */
 @media screen and (max-width: 768px) {
-  /* Use flex-direction to stack the navbar, sidebar, and body */
+
   main,
   nav {
     flex-direction: column;
   }
-  /* Make the sidebar stack below the body */
+  
   aside {
     order: 2;
   }
-  /* Change the header background */
+
   header {
     background: #772014;
   }
-  /* Change the navbar and footer background */
+ 
   nav,
   footer {
     background-color: #bb8588;
   }
+  
   #about-me, #work, #contact-me {
     visibility: hidden;
   }
